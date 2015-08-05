@@ -1,0 +1,66 @@
+
+
+/* ===== Message Note Notification messages ===== */
+
+
+
+.nNote { 
+	cursor: pointer; 
+	clear: both; 
+	margin: 0px 2px 10px 2px;
+}
+
+.nNote strong { 
+	margin-right: 5px; 
+}
+
+.nNote p { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	padding: 10px 25px 10px 54px; 
+	margin: 0px; 
+	color: #565656; 
+}
+
+.nMessage p { 
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 11px;
+}
+
+.nWarning { 
+	background: #ffe9ad url(../images/icons/notifications/error.png) no-repeat 15px center; 
+	border: 1px solid #eac572; 
+	color: #826200; 
+}
+
+.nSuccess { 
+	background: #effeb9 url(../images/icons/notifications/accept.png) no-repeat 15px center; 
+	border: 1px solid #c1d779; 
+	color: #3C5A01; 
+}
+
+.nFailure { 
+	background: #fccac1 url(../images/icons/notifications/exclamation.png) no-repeat 15px center; 
+	border: 1px solid #e18b7c; 
+	color: #AC260F; 
+}
+
+.nInformation { 
+	background: #d1e4f3 url(../images/icons/notifications/information.png) no-repeat 15px center; 
+	border: 1px solid #99c4ea; 
+	color: #235685; 
+}
+
+.nLightbulb { 
+	background: #FEF0CB url(../images/icons/notifications/lightbulb.png) no-repeat 15px center; 
+	border: 1px solid #D3A350; 
+	color: #835F21; 
+}
+
+.nMessages { 
+	background: #9DDFFF url(../images/icons/notifications/email.png) no-repeat 15px center; 
+	border: 1px solid #42B4FF; 
+	color: #835F21; 
+}
+
+

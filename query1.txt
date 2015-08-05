@@ -1,0 +1,1 @@
+update grs_call_log set reply_status="1" where random_number="9464282"

@@ -1,0 +1,62 @@
+/*
+
+Form Tools CSS
+
+*/
+
+TABLE.sort_header
+{
+	text-align: left;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+TABLE.sort_header TH {
+	border: 0px;
+}
+TABLE.sort_header TD {
+	border: 0px;
+}
+
+TABLE.sort_header TR:hover {
+	background: none;
+}
+
+TABLE.sort_header TD UL
+{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	text-align: right;
+	border: 0px;
+}
+
+TABLE.sort_header TD UL LI
+{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	text-indent: 0px;
+	border: 0px;
+}
+
+TABLE.sort_header TD  UL LI A
+{
+	padding: 0px;
+	
+}
+TABLE.sort_header TD UL LI A:hover 
+{
+	background: auto;
+}
+
+TABLE.sort_header TD  UL LI IMG
+{
+	border: 0px;
+}
+
+
+

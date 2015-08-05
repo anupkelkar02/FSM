@@ -1,0 +1,534 @@
+/*
+		Style Sheet
+*/
+
+
+BODY { 
+	background: #white;
+	margin: 0px;
+	padding:  0px;
+	color: black;
+	font: 12pt tahoma, sans-serif;
+	background: #F0F0E8;
+
+} 
+
+
+H1 {
+	font: bold 18pt tahoma, sans-serif;
+	color: #B04040;
+	margin: 0px 0px 0.5em 0px;
+}
+
+P { 
+	font: 12t tahoma, sans-serif;
+	color: black;
+}
+
+TABLE { 
+	font: 12pt tahoma, sans-serif;
+}
+
+FORM { 
+	font: 12pt tahoma, sans-serif;
+}
+
+INPUT { 
+	font: 12pt tahoma, sans-serif;
+}
+.error { 
+	color: darkred;
+	font-weight: bold;
+}
+		
+DIV.header {
+	padding: 0px;
+	background: #F0F0E8;
+	width: 100%;
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+}
+		
+DIV.header IMG {
+	padding-left: 2em;
+}
+
+DIV.header_title {
+	display: inline;
+	font-weight: bold;
+	font-size: 22px;
+	padding: 0px 0px 0px 1em;	
+	color: #404040;
+}	
+
+DIV.menubar {
+	padding: 0px 0px 0px 0px;
+	background: #606060;
+	width: 100%;
+	height: 35px;
+	box-shadow: 0px 4px 10px #A0A0A0;
+	margin: 0px 0px 1em 0px;
+}
+
+DIV.menu_info {
+	position: relative;
+	top: -46px;
+	right: 1em;
+	color: white;
+	float: right;
+	margin-right: 4px;
+	font-weight: bold;
+}
+
+DIV.menu_info A {
+	color: #A0A0A0 !important;
+}
+
+
+DIV.ddsmoothmenu {
+	padding-left: 1em;
+	font-size: 12pt;
+	height: 36px;
+}
+DIV.main_page {
+	padding: 1em;
+	margin: 0px;
+	background: #F0F0E8;
+/*	box-shadow: 2px 0px 2px #B0B0B0; */
+/*
+background-image: linear-gradient(bottom, rgb(45,49,213) 10%, rgb(72,79,255) 55%, rgb(101,111,255) 78%);
+background-image: -o-linear-gradient(bottom, rgb(45,49,213) 10%, rgb(72,79,255) 55%, rgb(101,111,255) 78%);
+background-image: -moz-linear-gradient(bottom, rgb(45,49,213) 10%, rgb(72,79,255) 55%, rgb(101,111,255) 78%);
+background-image: -webkit-linear-gradient(bottom, rgb(45,49,213) 10%, rgb(72,79,255) 55%, rgb(101,111,255) 78%);
+background-image: -ms-linear-gradient(bottom, rgb(45,49,213) 10%, rgb(72,79,255) 55%, rgb(101,111,255) 78%);
+background-image: -webkit-linear-gradient(top, #F0F0EF 80%, white );
+*/
+
+}
+
+DIV.page {
+	margin: 0px;
+	height-min: 500px;
+	background: white;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+DIV.content {
+	overflow: hidden;	
+
+}
+
+DIV.website_info {
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	display: inline;
+	color: white;
+	padding: 4px 0px 0px 0px;
+	margin: 0px;
+	font-size: 10pt;
+
+}
+DIV.website_info DIV {
+	background: green;
+	padding: 4px;
+	margin: 0px;
+}
+DIV.website_info A {
+	display: block;
+	text-decoration: none;
+	background: #404040;
+	font: bold 10pt Arial, Verdana, sans-serif;
+	color: #F0F0F0;
+	padding: 4px;
+	margin: 0px;
+}
+
+DIV.website_info A:hover {
+	color: white;
+}
+
+
+P.tag_line {
+	font-size: 140%;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.5em 1em 0.5em 1em;
+
+
+/*
+	border-bottom: 2px dashed #F0A0A0;
+	border-radius: 5px;
+	background: #F0A0A0;
+*/	
+	margin: 0px 0px 1em 0px;
+}
+
+
+
+DIV.footer {
+	border-top: 1px silver dashed;
+	font-size: 8pt;
+	width: 100%;
+	margin: 1em 0px 0px 0px;
+	background: #F0F0E8;
+	padding: 1em 0px 1em 0px;
+	background: white;
+	border: 1px solid #E0E0E0;
+	border-radius: 5px;
+}
+
+DIV.footer P {
+	padding: 0px 0px 0px 1em;
+}
+
+
+
+DIV.left_column {
+	float: left;
+	margin-right: 10px;
+	overflow: hidden;	
+}
+
+					
+TABLE.DataRows {
+	padding: 0px;
+	margin: 0px;
+	border: 1px solid black;
+	width: auto;
+}
+
+TABLE.DataRows TH { 
+	background: #757575;
+	padding: 8px;
+	color: white;
+	border-left: 1px dotted white;
+	border-bottom: 3px solid #CACACA;
+	font: bold 10pt Arial, sans-serif;
+	vertical-align: middle;
+}
+TABLE.DataRows TH:first-child {
+	border-left: 0px dotted white;
+}
+				
+						
+TABLE.DataRows TD { 
+	border-left: 1px dotted #808080;
+	padding: 4px 8px 4px 8px;
+	border-top: 1px solid #F0F0F0;
+}
+
+TABLE.DataRows TD:first-child {
+	border-left: 0px;
+}
+	
+TABLE.DataRows TD.PageBreak { 
+	border-top: 1px solid black;
+	background: #f0f0f0;
+}
+
+TABLE.DataRows TR.row_on {
+	background: #FDFDF6;
+}
+
+TABLE.DataRows TR:hover { 
+	background: #FFFFE0;
+}
+
+TABLE.DataRows TR.row_on:hover {
+	background: #FFFFE0;
+}
+
+
+TABLE.DataRows TD.Total { 
+	border-top: 1px solid black;
+	font-weight: bold;
+}
+
+TABLE.DataRows TD.pagination { 
+	border-top: 1px solid black;
+	text-align: center;
+	background: #f0f0f0;
+}
+
+TABLE.DataRows INPUT.checkid { 
+	background: #90D0D0;
+}
+							
+
+
+TABLE.DataRows TD.checkid {
+	text-align: center;
+	font-size: 90%;
+}
+							
+							
+TABLE.DataRows TH.checkid { 
+	text-align: center;
+}
+
+
+TABLE.DataRowsSubFields {
+
+}
+
+TABLE.DataRowsSubFields TD {
+	border-bottom: 1px dashed silver; 
+}
+
+
+TABLE.filter {
+	text-align: left;
+	margin: 0px 0px 2px 0px;
+	font: 12pt Arial, sans-serif;	
+}
+
+TABLE.filter TH {
+	padding-left: 1em;
+	padding-right: 1em;
+	vertical-align: top;
+	color: #606060;
+}
+
+TABLE.filter TD:first-child {
+	padding-left: 1em;
+	padding-right: 1em;
+	vertical-align: top;
+	text-align: center;
+	border-left: 0px dashed #808080;
+}
+
+TABLE.filter TD {
+	padding-left: 1em;
+	padding-right: 1em;
+	vertical-align: top;
+	border-left: 1px dashed #808080;
+	text-align: center;
+}
+
+
+
+FIELDSET.filter {
+	margin: 0px 0px 4px 0px;
+	background: #F8FFF8;
+	border: 1px solid #9595A5;
+	font: 12pt Arial, sans-serif;	
+	padding: 0.5em;
+}
+
+FIELDSET.filter Legend { 
+	color: darkgreen;
+	font: bold 14pt Arial, sans-serif;
+	border: 0px;
+	padding: 0px 0.5em 0px 0.5em;
+	margin: 0px;
+	width: auto;
+		
+}
+
+
+TABLE.DataRow {
+	border: 1px solid silver;
+	border-radius: 5px;
+	padding: 0px;
+
+}
+
+TABLE.DataRow TH { 
+	text-align: right;
+	vertical-align: top;
+	padding: 0.4em;
+	padding-left: 1em;
+	background: #F0F0F0;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+TABLE.DataRow TH:first-child { 
+	border-bottom: auto;
+}
+
+TABLE.DataRow TD { 
+	padding: 0.4em;
+	background: #FFFFF8;
+	border-bottom: 1px solid #D0D0D0;
+}
+
+TABLE.DataRow TD:first-child { 
+	border-bottom: 0px solid black;
+}
+
+FIELDSET.importFile {
+	margin: 0px 0px 4px 0px;
+	background: #F0F8F0;
+	border: 1px solid #9595A5;
+	font: 12pt Arial, sans-serif;	
+}
+
+FIELDSET.importFile Legend { 
+	color: darkblue;
+	font: bold 12pt Arial, sans-serif;
+		
+}
+
+
+DIV.media {
+	margin: 0px;
+	padding: 0px;
+}
+.media UL {
+	margin: 0px 0px 4px 0px;
+}
+
+.media UL LI {
+	float: left;
+	display: block;
+	padding: 4px;
+	margin: 0px 2x 0px 2px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.media UL LI A {
+	display: block;
+	color: #606060;
+	text-decoration: none;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid silver;
+	width: 120px;
+	height: 120px;
+	padding: 4px;
+}
+
+.media UL LI A DIV.image {
+	margin: 0px 0px 8px 0px;
+	height: 64px;
+	vertical-align: middle;	
+}
+
+.media UL LI A:hover {
+	background: #D0D0D0;
+	color: black;
+	border: 1px solid #F08080;
+}
+
+.media UL LI A DIV.title {
+	display: block;
+	vertical-align: bottom;
+	word-wrap: break-word;
+	width: 100%;
+	margin: 4px 0px 0px 0px;
+	border-top: 1px dashed silver;
+	font-size: 90%;
+}
+
+.media UL LI INPUT {
+	display: block;
+	position: relative;
+	top: 106px;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+DIV.media_browser
+{
+
+}
+DIV.media_browser_header {
+	border-bottom: 1px solid silver;
+}
+
+DIV.media_browser .path {
+	font-weight: bold;
+	float: right;	
+}
+INPUT.media_browse {
+	color: white;
+	border: 0px;
+	background: #606060;
+	font-size: 90%;
+	font-weight: bold;
+	padding: 6px 10px 6px 10px;
+	cursor: pointer;
+}
+
+DIV.media_buttons {
+	padding-top: 10px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+
+UL.message_fields {
+	display: block;
+	overflow: hidden;
+}
+
+UL.message_fields LI {
+	display: inline;
+	float: left;
+	margin: 2px;
+	padding: 4px;
+	font-weight: bold;
+	border: 1px solid black;
+	background: #606060;
+	color: white;
+	font-size: 90%;
+
+}
+
+
+SPAN.note {
+	color: darkgreen;
+}
+
+
+
+TD.stats_name {
+	font-style : italic; 
+ }
+
+
+
+INPUT.update, INPUT.login {
+	background: #606060;
+	color: white;
+	padding: 6px 12px 6px 12px;
+	border: 0px solid white;
+	border-radius: 4px;
+	font-size: 90%;
+}
+INPUT.update:hover, INPUT.login:hover {
+	background: #202020;
+	cursor: hand;
+}
+
+DIV.main_panel
+{
+	overflow: hidden;
+
+}
+DIV.left_panel
+{
+	float: left;
+
+}
+DIV.right_panel
+{
+	float: left;
+	overflow: hidden;
+	margin: 0px 0px 0px 2em;
+}
+
+FIELDSET.sub_form {
+	margin: 0px;
+	background: white;
+	border: 1px solid #9595A5;
+	font-weight: bold;
+}
+

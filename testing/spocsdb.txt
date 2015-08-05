@@ -1,0 +1,6 @@
+Database name :	db585638878
+Host name :	db585638878.db.1and1.com
+Port :	3306
+User name :	dbo585638878
+Description :	spocs
+Version :	MySQL5
