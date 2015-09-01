@@ -99,7 +99,11 @@
                 </ul>
             </li>
 <li><a href="#">Sales</a><img src="<?php echo base_url();?>images/admin/ddsmooth_menu/down.gif" class="downarrowclass" style="border:0px;" />
-                <ul><li><a href="<?php echo base_url();?>index.php/admin/home/camp">Campaigns</a></li><li><a href="<?php echo base_url();?>index.php/admin/home/crm">CRM</a></li></ul>
+                <ul>
+                <li><a href="<?php echo base_url();?>index.php/admin/home/camp">Campaigns</a></li>
+                <li><a href="<?php echo base_url();?>index.php/admin/home/crm">CRM</a></li>
+                 <li><a href="<?php echo base_url();?>index.php/admin/home/proposal">Proposal</a></li>
+                </ul>
                 
             </li>
 <li><a href="<?php echo base_url();?>index.php/admin/home/qc">Quality Control</a></li>
